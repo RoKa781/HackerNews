@@ -1,0 +1,47 @@
+.switch {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: #ccc;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.active {
+    transform: translateX(30px);
+}
+
+.switch.active {
+    background-color: #007bff;
+}
+
+.switch:hover {
+    background-color: #bbb;
+}
+
+.moon {
+    fill: #4e5055;
+}
+
+.sun {
+    fill: #f9d71c;
+}

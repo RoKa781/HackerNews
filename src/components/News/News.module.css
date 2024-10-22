@@ -1,0 +1,33 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--accent-border-color);
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+}
+
+.news a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.news:hover {
+    box-shadow: -6px -1px 13px 1px var(--accent-text-color);
+}
+
+.newsTitle {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.news h2 {
+    margin: 0;
+}
+
+.news p {
+    margin: 0;
+}
+

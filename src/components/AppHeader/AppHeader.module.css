@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.homeTitle {
+  font-size: clamp(3.875rem, 2.8393rem + 5.1786vw, 7.5rem);
+  align-self: flex-start;
+  font-family: var(--accent-font-family);
+  color: var(--accent-text-color);
+  margin: 0;
+}
+
+@media (max-width: 650px) {
+  .header {
+    flex-direction: column;
+    gap: 0;
+    align-items: start;
+  }
+}

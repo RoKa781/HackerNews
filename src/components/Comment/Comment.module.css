@@ -1,0 +1,42 @@
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  border-bottom: 1px solid var(--accent-border-color);
+  transition: max-height 0.3s ease;
+  padding-bottom: 10px;
+}
+
+.comment.expanded {
+  height: auto;
+}
+
+.titleComment {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.showRepliesButton {
+  background-color: transparent;
+  border: none;
+  color: var(--accent-text-color);
+  cursor: pointer;
+  font-size: 22px;
+  padding: 0;
+}
+
+.showRepliesButton:hover {
+  text-decoration: underline;
+}
+
+.childComments {
+  padding: 0px 20px;
+}
+
+.childComments > div {
+  border: 2px solid var(--accent-text-color);
+  padding: 10px 10px;
+}
+

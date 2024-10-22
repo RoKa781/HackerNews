@@ -1,0 +1,23 @@
+:root {
+  --accent-font-family: 'Lora', serif;
+  --accent-bg-color: #121212;
+  --accent-text-color: #cacaca ;
+  --accent-activetab-color: rgb(100, 199, 138);
+  --accent-border-color: rgb(102, 98, 98);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--accent-font-family);
+  background-color: var(--accent-bg-color);
+  color: var(--accent-text-color);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.light-theme {
+  --accent-bg-color: #E0E0E0;
+  --accent-text-color: #2C2C2C;
+}

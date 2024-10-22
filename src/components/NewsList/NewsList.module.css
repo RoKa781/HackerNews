@@ -1,0 +1,39 @@
+.button {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.reload {
+    fill: var(--accent-text-color);
+    stroke: var(--accent-text-color);
+    transition: fill 0.5s ease, stroke 0.5s ease;
+}
+
+.reload:hover {
+    fill: aqua;
+    stroke: aqua;
+}
+
+.button:hover .reload {
+    animation: rotate 0.5s ease forwards;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.newsList {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+}

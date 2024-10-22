@@ -1,0 +1,12 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 15px;
+}
+
+.errorTitle {
+    margin: 0;
+}
+
