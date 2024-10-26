@@ -3,3 +3,9 @@ body {
     margin: 0;
     padding-left: 3rem;
 }
+
+@media (max-width: 700px) {
+    body {
+        padding-left: 14px;
+    }
+}
